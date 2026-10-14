@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+.vercel
+*.tsbuildinfo
+.DS_Store
+npm-debug.log*
+
+# Secrets: never commit. (.env.example is the only env file that belongs in Git.)
+.env
+.env.local
+.env*.local
+
+# Personal exports and backups produced by the app: never commit.
+MyFit_Backup*.json
+MyFit_Weekly_Report_*.md
+MyFitTracker_*.xlsx

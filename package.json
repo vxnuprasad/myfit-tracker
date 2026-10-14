@@ -1,0 +1,34 @@
+{
+  "name": "myfit-tracker",
+  "private": true,
+  "description": "MyFit Tracker: a mobile-first fitness tracker (workouts, food, water, body measurements) built with Next.js. Created by Vishnu Prasad.",
+  "author": "Vishnu Prasad (https://vxnuprasad.github.io/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greynoddigital/myfit-tracker.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "npx -y tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/plus-jakarta-sans": "^5.3.0",
+    "lucide-react": "^1.51.0",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.6.0"
+  }
+}
